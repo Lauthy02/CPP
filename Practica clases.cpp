@@ -2,7 +2,7 @@
 #define Enter cout << " " << endl;
 using namespace std;
 
-//Construya una clase llamada Rectángulo que tenga los atributos largo y ancho y los métodos perímetro y área.
+//Construya una clase llamada RectÃ¡ngulo que tenga los atributos largo y ancho y los mÃ©todos perÃ­metro y Ã¡rea.
 
 class Rectangulo
 {
@@ -11,7 +11,7 @@ class Rectangulo
         int Largo;
         int Ancho;
 
-    public: //Métodos
+    public: //MÃ©todos
         Rectangulo(string,int,int); //Constructor
         int CacPer();
         int CalcArea();
@@ -26,7 +26,7 @@ Rectangulo::Rectangulo(string _Nombre, int _Largo, int _Ancho)
     Ancho = _Ancho;
 }
 
-//Métodos
+//MÃ©todos
 int ResPer = 0;
 int ResAre = 0;
 
