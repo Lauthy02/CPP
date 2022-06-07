@@ -3,7 +3,7 @@
 #define DeleteBuffer fflush(stdin);
 using namespace std;
 
-//Construya una clase llamada Rect·ngulo que tenga los atributos largo y ancho y los mÈtodos perÌmetro y ·rea.
+//Construya una clase llamada Rect√°ngulo que tenga los atributos largo y ancho y los m√©todos per√≠metro y √°rea.
 
 class Rectangulo
 {
@@ -12,7 +12,7 @@ class Rectangulo
         int Largo;
         int Ancho;
 
-    public: //MÈtodos
+    public: //M√©todos
         Rectangulo(string,int,int); //Constructor
         int CacPer();
         int CalcArea();
@@ -27,7 +27,7 @@ Rectangulo::Rectangulo(string _Nombre, int _Largo, int _Ancho)
     Ancho = _Ancho;
 }
 
-//MÈtodos
+//M√©todos
 int ResPer = 0;
 
 int Rectangulo::CacPer()
