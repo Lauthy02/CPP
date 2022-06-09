@@ -13,7 +13,7 @@ bool SiQuiereSalir()
 {
     Salir = true;
     char Sal;
-    cout << "¿Desea salir? (Y/n): " << endl;
+    cout << "Â¿Desea salir? (Y/n): " << endl;
     cin >> Sal;
     if(Sal == 'Y')
     {
@@ -25,7 +25,7 @@ bool SiQuiereSalir()
     }
     else
     {
-        cout << "No seleccionó ninguna opción posible, vuelva a elegir" << endl;
+        cout << "No seleccionÃ³ ninguna opciÃ³n posible, vuelva a elegir" << endl;
         DeleteBuffer;
         Pausa;
         DeleteBuffer;
@@ -42,19 +42,19 @@ int main()
         int Operacion, Num_1, Num_2, Res = 0;
         LimpiarConsola;
         cout << "Hello world!" << endl;
-        cout << "La opción 1 es sumar" << endl;
-        cout << "La opción 2 es restar" << endl;
-        cout << "La opción 3 es dividir" << endl;
-        cout << "La opción 4 es multiplicar" << endl;
+        cout << "La opciÃ³n 1 es sumar" << endl;
+        cout << "La opciÃ³n 2 es restar" << endl;
+        cout << "La opciÃ³n 3 es dividir" << endl;
+        cout << "La opciÃ³n 4 es multiplicar" << endl;
         Enter;
         cout << "Seleccione una de estas opciones: " << endl;
         cin >> Operacion;
         DeleteBuffer;
         Enter;
-        cout << "Indique el número 1: " << endl;
+        cout << "Indique el nÃºmero 1: " << endl;
         cin >> Num_1;
         DeleteBuffer;
-        cout << "Indique el número 2: " << endl;
+        cout << "Indique el nÃºmero 2: " << endl;
         cin >> Num_2;
         DeleteBuffer;
 
@@ -62,7 +62,7 @@ int main()
         {
             case 1:
             {
-                cout << "Eligió SUMAR" << endl;
+                cout << "EligiÃ³ SUMAR" << endl;
                 Res = Num_1 + Num_2;
                 cout << "La SUMA entre "<< Num_1 << " y " << Num_2 << " es: "<< Res << endl;
                 SiQuiereSalir();
@@ -70,7 +70,7 @@ int main()
             }
             case 2:
             {
-                cout << "Eligió RESTAR" << endl;
+                cout << "EligiÃ³ RESTAR" << endl;
                 Res = Num_1 - Num_2;
                 cout << "La RESTA entre "<< Num_1 << " y " << Num_2 << " es: "<< Res << endl;
                 SiQuiereSalir();
@@ -78,7 +78,7 @@ int main()
             }
             case 3:
             {
-                cout << "Eligió DIVIDIR" << endl;
+                cout << "EligiÃ³ DIVIDIR" << endl;
                 if(Num_2 == 0)
                 {
                     cout << "No se puede dividir por 0." << endl;
@@ -88,22 +88,22 @@ int main()
                 else
                 {
                     Res = Num_1 / Num_2;
-                    cout << "La DIVISIÓN entre "<< Num_1 << " y " << Num_2 << " es: "<< Res << endl;
+                    cout << "La DIVISIÃ“N entre "<< Num_1 << " y " << Num_2 << " es: "<< Res << endl;
                     SiQuiereSalir();
                     break;
                 }
             }
             case 4:
             {
-                cout << "Eligió MULTIPLICAR" << endl;
+                cout << "EligiÃ³ MULTIPLICAR" << endl;
                 Res = Num_1 * Num_2;
-                cout << "La MULTIPLICACIÓN entre "<< Num_1 << " y " << Num_2 << " es: "<< Res << endl;
+                cout << "La MULTIPLICACIÃ“N entre "<< Num_1 << " y " << Num_2 << " es: "<< Res << endl;
                 SiQuiereSalir();
                 break;
             }
             default:
             {
-                cout << "No seleccionó una opción posible." << endl;
+                cout << "No seleccionÃ³ una opciÃ³n posible." << endl;
                 SiQuiereSalir();
                 break;
             }
