@@ -18,3 +18,5 @@ using namespace std;
 
 #define Enter cout<<""<<endl;
 #define DeleteBuffer fflush(stdin);
+#define Pausa system("pause");
+#define LimpiarConsola system("cls");
