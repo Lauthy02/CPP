@@ -8,7 +8,6 @@
 #include <windows.h>
 #include <stdbool.h>
 
-
 using namespace std;
 
 #define Enter cout<<""<<endl;
