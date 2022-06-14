@@ -13,13 +13,3 @@ using namespace std;
 
 #define Enter cout<<""<<endl;
 #define DeleteBuffer fflush(stdin);
-
-/*
-
-int main()
-{
-    
-    return 0;
-}
-
-*/
