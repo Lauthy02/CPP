@@ -4,6 +4,7 @@
 int N1, N2;
 bool Volver = false;
 
+//---- FUNCIONES
 void IndiqueNumero()
 {
     cout << "Indique el primer numero: ";
@@ -28,7 +29,9 @@ void SiDeseaSalir()
         Volver = true;
     }
 }
+//-------------------
 
+//---- PROGRAMA PRINCIPAL
 int main()
 {
     do
