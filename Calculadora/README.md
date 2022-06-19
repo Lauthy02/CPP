@@ -1,0 +1,1 @@
+En esta carpeta llamada calculadora hay 3 archivos, un archivo que se llama "Programa.cpp", donde está el programa principal, otro archivo que se llama "Clase Calculadora.h", como su nombre indica tiene la clase calculadora que se va a usar en el programa principal y el archivo "Cabeceras.h", donde están declaradas todas las cabeceras que conozco y los define que uso normalmente.
